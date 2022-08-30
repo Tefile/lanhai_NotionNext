@@ -4,8 +4,7 @@ const BLOG = {
   BIO: '一个逆向破解者', // 作者简介
   LINK: '', // 网站地址
   KEYWORDS: '墨雪的破解网站', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID:
-  process.env.NOTION_PAGE_ID || '4de270bc92c94e47a9705b5b0400e3b5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  NOTION_PAGE_ID:process.env.NOTION_PAGE_ID || '203b76de0b294e2abf6f202937beb857', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
@@ -17,16 +16,16 @@ const BLOG = {
   FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
-  THEME: process.env.NEXT_PUBLIC_THEME || 'next', // 主题， 支持 ['next','hexo',"fukasawa','medium','example'] @see https://preview.tangly1024.com
+  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 主题， 支持 ['next','hexo',"fukasawa','medium','example'] @see https://preview.tangly1024.com
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   HOME_BANNER_IMAGE: './bg_image.jpg', // 首页背景大图，默认文件：/public/bg_image.jpg 。会被Notion中的封面图覆盖。
   SINCE: "", // e.g if leave this empty, current year will be used.
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
   APPEARANCE: 'auto', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
-  FONT: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
+  FONT: 'font-sans tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
   FONT_AWESOME_PATH:
-    'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/all.min.css', // 图标库CDN ，国内推荐BootCDN，国外推荐 CloudFlare https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css', // 图标库CDN ，国内推荐BootCDN，国外推荐 CloudFlare https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
   BACKGROUND_LIGHT: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
   BACKGROUND_DARK: '#000000', // use hex value, don't forget '#'
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
